@@ -7,8 +7,8 @@ public class Loops {
         for (int i=0; i< myNumbers.length; i++){
             System.out.println(myNumbers[i]);
         }
-        for (int numara : myNumbers) { //yukaridaki islemin dizilerle calisan kisayolu
-            System.out.println(numara/5);
+        for (int number : myNumbers) { //short version of for for arrays
+            System.out.println(number/5);
         }
 
         int c = 1;
