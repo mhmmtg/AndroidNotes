@@ -6,11 +6,11 @@ public class Statements {
         int y = 4;
 
         if (x<y){
-            System.out.println("y buyuk");
+            System.out.println("y is bigger");
         } else if (x>y){
-            System.out.println("x buyuk");
+            System.out.println("x is bigger");
         } else {
-            System.out.println("baska");
+            System.out.println("anything else");
         }
 
         int day = 1;
