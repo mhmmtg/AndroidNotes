@@ -11,9 +11,9 @@ public class Operators {
         System.out.println(x);
 
         int y = 6;
-        System.out.println(x<y); //true sonucu dondurur
+        System.out.println(x<y); //returns true
         System.out.println(x<=y);
-        System.out.println(x==y); //x=y xi yeye esitle demek olurmus
+        System.out.println(x==y); //x=y means equate x to y
         System.out.println(x!=y);
 
         int z = 4;
