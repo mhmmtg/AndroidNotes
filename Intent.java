@@ -26,5 +26,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("personName", name); //gonderirken put ile degisken ekleyebiliyoruz
         startActivity(intent);
         finish();
+        
+        //startActivity(new Intent(this, FlashCard.class));
     }
 }
