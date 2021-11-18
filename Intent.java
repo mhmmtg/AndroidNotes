@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         editText = findViewById(R.id.editText1);
     }
     public void btnChange(View view){
-        //intent context ve class istiyor
-        //farkli aktiviteye veriyi intent ile yolluyoruz
+        //context and class
+        //putExtra
         Intent intent = new Intent(MainActivity.this, MainActivity2.class);
         name = editText.getText().toString();
         intent.putExtra("personName", name); //gonderirken put ile degisken ekleyebiliyoruz
@@ -28,5 +28,10 @@ public class MainActivity extends AppCompatActivity {
         finish();
         
         //startActivity(new Intent(this, FlashCard.class));
+        
+        //Activity2
+        Intent intent = getIntent();
+        nameIntent = intent.getStringExtra("personName");
+        textView.setText(nameIntent);
     }
 }
