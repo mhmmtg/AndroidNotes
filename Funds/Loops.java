@@ -16,5 +16,14 @@ public class Loops {
             System.out.println("test" + c);
             c++;
         }
+        
+        int start=1;
+        int stop=5;
+        int sum = 0;
+        
+        for (int i=start; i<stop; i++) {
+            sum = sum + i;
+        }
+        
     }
 }
