@@ -14,7 +14,7 @@ public Bitmap makeSmallerImage(Bitmap image, int maxSize){
         int defWidth = (int) (width/scale);
         int defHeight = (int) (height/scale);
 
-        return image.createScaledBitmap(image, defWidth, defHeight, true);
+        return Bitmap.createScaledBitmap(image, defWidth, defHeight, true);
     }
 
         Bitmap smallerImage = makeSmallerImage(selectedImage, 300);
