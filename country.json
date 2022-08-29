@@ -381,7 +381,7 @@
     "name": "Canary Islands"
   },
   {
-    "code": "es-ct",
+    "code": "es_ct",
     "flag_1x1": "flags/1x1/es-ct.svg",
     "flag_4x3": "flags/4x3/es-ct.svg",
     "iso": false,
@@ -606,7 +606,7 @@
   },
   {
     "capital": "Santo Domingo",
-    "code": "do",
+    "code": "do_",
     "continent": "North America",
     "flag_1x1": "flags/1x1/do.svg",
     "flag_4x3": "flags/4x3/do.svg",
@@ -642,7 +642,7 @@
   },
   {
     "capital": "London",
-    "code": "gb-eng",
+    "code": "gb_eng",
     "continent": "Europe",
     "flag_1x1": "flags/1x1/gb-eng.svg",
     "flag_4x3": "flags/4x3/gb-eng.svg",
@@ -792,7 +792,7 @@
     "name": "Gabon"
   },
   {
-    "code": "es-ga",
+    "code": "es_ga",
     "flag_1x1": "flags/1x1/es-ga.svg",
     "flag_4x3": "flags/4x3/es-ga.svg",
     "iso": false,
@@ -1545,7 +1545,7 @@
   },
   {
     "capital": "Belfast",
-    "code": "gb-nir",
+    "code": "gb_nir",
     "continent": "Europe",
     "flag_1x1": "flags/1x1/gb-nir.svg",
     "flag_4x3": "flags/4x3/gb-nir.svg",
@@ -1833,7 +1833,7 @@
   },
   {
     "capital": "Edinburgh",
-    "code": "gb-sct",
+    "code": "gb_sct",
     "continent": "Europe",
     "flag_1x1": "flags/1x1/gb-sct.svg",
     "flag_4x3": "flags/4x3/gb-sct.svg",
@@ -2313,7 +2313,7 @@
   },
   {
     "capital": "Cardiff",
-    "code": "gb-wls",
+    "code": "gb_wls",
     "continent": "Europe",
     "flag_1x1": "flags/1x1/gb-wls.svg",
     "flag_4x3": "flags/4x3/gb-wls.svg",
